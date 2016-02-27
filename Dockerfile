@@ -5,6 +5,5 @@ MAINTAINER WangXian <xian366@126.com>
 ADD . .
 
 # custom server configure
-# ADD conf/nginx.conf /etc/nginx/
-# ADD conf/php-fpm.conf /etc/php/
-
+ADD conf/nginx.conf /etc/nginx/
+ADD conf/php-fpm.conf /etc/php/
